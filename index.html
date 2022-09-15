@@ -6,15 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/estilo.css" />
+    <script
+      src="https://kit.fontawesome.com/40d89d1195.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="nav">
       <h1 class="nav-name"><span>MA</span>Carpio</h1>
+      <button id="btn-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
       <ul class="nav-ul">
-        <a class="nav-link"><li>Presentacion</li></a>
+        <a class="nav-link" href="#about"><li>Presentacion</li></a>
         <a class="nav-link"><li>Habilidades</li></a>
         <a class="nav-link"><li>Proyectos</li></a>
       </ul>
+      <div id="menu" class="menu">
+        <ul class="nav-ul-movile">
+          <a class="nav-link" href="#about"><li>Presentacion</li></a>
+          <a class="nav-link"><li>Habilidades</li></a>
+          <a class="nav-link"><li>Proyectos</li></a>
+        </ul>
+      </div>
     </header>
     <section class="banner">
       <div class="container">
@@ -25,17 +39,17 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <h1 class="about-title">Sobre mi</h1>
         <p class="about-text">
-          Desde que comencé mis estudios en Ingenieria de Sistemas mi pasion por
-          el desarrollo web crecio inmensamente, he desarrollado proyectos
-          propios con el fin de mejorar mis habilidades y mis conocimientos.
+          Me llamo Mauricio Apaza Carpio, desde que comencé mis estudios en
+          Ingenieria de Sistemas mi pasion por el desarrollo web crecio
+          inmensamente, he desarrollado proyectos propios con el fin de mejorar
+          mis habilidades y mis conocimientos.
           <br />
-          Soy tranquilamente confiado, naturalmente curioso y trabajo
-          perpetuamente para mejorar mis habilidades, un problema de diseño a la
-          vez.
+          Me considero naturalmente curioso y trabajo perpetuamente para mejorar
+          mis habilidades.
         </p>
       </div>
     </section>
@@ -44,5 +58,6 @@
         <h1>Continuara...</h1>
       </div>
     </section>
+    <script src="js/portafolio.js"></script>
   </body>
 </html>
